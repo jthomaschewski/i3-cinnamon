@@ -1,0 +1,2 @@
+ #!/bin/sh
+ exec cinnamon-session --session i3-cinnamon "$@"
