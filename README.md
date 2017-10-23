@@ -24,7 +24,7 @@ See [more](https://github.com/lvillani/i3-gnome/issues/10).
 * GDM (Tested with GDM, might also work with others)
 
 # Installation
-* For Arch users see the [AUR package](https://aur.archlinux.org/packages/i3-cinnamon/) for a more easy installation.
+* For Arch users see the [AUR package](https://aur.archlinux.org/packages/i3-cinnamon-git/) for a more easy installation.
 
 Using `make`:
 * download the repo.
