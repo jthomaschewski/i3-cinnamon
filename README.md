@@ -1,4 +1,4 @@
-# i3-cinnamon [![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/) [![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)]()
+# i3-cinnamon [![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/) [![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)]()
 
 Allows you to use i3-wm with Cinnamon Session infrastructure.
 
@@ -21,7 +21,7 @@ See [more](https://github.com/lvillani/i3-gnome/issues/10).
 # Requirements
 * i3-wm
 * Cinnamon
-* GDM (Tested with GDM, might also work with others)
+* GDM or LightDM (might also work with others)
 
 # Installation
 * For Arch users see the [AUR package](https://aur.archlinux.org/packages/i3-cinnamon-git/) for a more easy installation.
