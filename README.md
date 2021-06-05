@@ -20,7 +20,7 @@ See [more](https://github.com/lvillani/i3-gnome/issues/10).
 
 # Requirements
 * i3-wm
-* Cinnamon
+* Cinnamon 5.x (For Cinnamon 4.x use release tagged with 4.x)
 * GDM or LightDM (might also work with others)
 
 # Installation
