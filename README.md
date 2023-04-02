@@ -1,10 +1,11 @@
 # i3-cinnamon [![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/) [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)]()
 
-Allows you to use i3-wm with Cinnamon Session infrastructure.
+This project enables you to use the i3 tiling window manager ([i3-wm](https://github.com/i3/i3)) with the [Cinnamon](https://github.com/linuxmint/cinnamon) desktop environment's session infrastructure.  
+This repo started as fork of https://github.com/i3-gnome/i3-gnome/
 
-# What to expect from this?
+## What to expect from this?
 
-With `i3-cinnamon` you get along with i3 (Window Manager) and Cinnamon (Desktop Environment) instead of Muffin (the default window manager of Cinnamon).
+With `i3-cinnamon`, you can expect the following benefits over plain `i3`:
 
 - Cinnamon screensaver & lockscreen
 - Cinnamon power settings
@@ -12,32 +13,44 @@ With `i3-cinnamon` you get along with i3 (Window Manager) and Cinnamon (Desktop 
 - Cinnamon notification daemon
 - Autostart of various applications (XDG-Autostart)
 - Background image
+- GTK theming managed by Cinnamon & changes apply immediately
 
-# Known issues
+## Known issues
 
 - Cinnamon keyboard shortcuts (including volume/media/brightness keys) are not working
 - Cinnamon display management (Not working anymore due to changes in Cinnamon, see [#3](https://github.com/jthomaschewski/i3-cinnamon/issues/3))
-- i3 exit + login in gdm might cause some issues, login after reboot works fine
+- `i3-msg exit` and then login in GDM might cause issues. If thats the case, please reboot or restart GDM
 
-# Requirements
+## Requirements
 
 - i3-wm
 - Cinnamon 5.x (For Cinnamon 4.x use release tagged with 4.x)
-- GDM or LightDM (might also work with others)
+- GDM or LightDM (might also work with other display managers)
 
-# Installation
+## Installation
 
-- For Arch users see the [AUR package](https://aur.archlinux.org/packages/i3-cinnamon-git/) for a more easy installation.
+### Arch Linux
 
+For Arch users (or derivates like Manjaro), an [AUR package](https://aur.archlinux.org/packages/i3-cinnamon-git/) is available easy installation.  
+Use your favourite AUR helper, e.g:
+
+```bash
+paru -S i3-cinnamon-git
+```
+or
+```bash
+yay -S i3-cinnamon-git
+```
+
+### Manual installation
 Using `make`:
 
-- download the repo.
-- on the terminal go to the repo directory.
-- `make install`
+1. Clone the repository
+2. Navigate to the cloned directory
+3. Run `make install`
 
-# Contributing
+## Contributing
 
-We accept contributions. Any help is greatly appreciated.
+We welcome contributions! Your help is greatly appreciated.
 
-For smaller patches and bug fixes just go ahead and either report an issue or submit a pull
-request.
+For small patches and bug fixes, feel free to report an issue or submit a pull request directly.
